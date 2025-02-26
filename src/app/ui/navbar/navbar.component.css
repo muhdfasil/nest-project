@@ -1,0 +1,17 @@
+.mainDiv{
+    background-color: rgb(99, 132, 161);
+    border-radius: 20px;
+}
+.navbutton{
+    border-color: white;
+    color: white;
+}
+.logo{
+    width: 80px;
+}
+.navButtonDiv{
+    margin-left: 790px;
+}
+.logoDiv{
+    margin-left: -50px;
+}
