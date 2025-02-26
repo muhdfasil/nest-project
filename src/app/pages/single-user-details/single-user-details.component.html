@@ -1,1 +1,31 @@
-<p>single-user-details works!</p>
+<!-- <p>single-user-details works!</p>
+    <p>{{details.firstName}}</p> -->
+    <!-- <p>single-user-details works!</p>
+    <p>{{ details.firstName }}</p>
+     -->
+
+
+
+<div class="container mt-5 d-flex justify-content-center">
+        <div class="card p-4 shadow-lg" style="width: 24rem;">
+            <img [src]="details?.image" class="card-img-top rounded-circle mx-auto d-block" alt="User Image" style="width: 100px; height: 100px;">
+            
+            <div class="card-body text-center">
+                <h4 class="card-title">{{ details?.firstName }} {{ details?.lastName }}</h4>
+                <p class="text-muted">{{ details?.username }}</p>
+                
+                <hr>
+    
+                <p><strong>📍 Address:</strong> {{ details?.address?.address }}, {{ details?.address?.city }}, {{ details?.address?.state }} - {{ details?.address?.postalCode }}</p>
+                <p><strong>📧 Email:</strong> {{ details?.email }}</p>
+                <p><strong>📞 Phone:</strong> {{ details?.phone }}</p>
+                <p><strong>🏥 Blood Group:</strong> {{ details?.bloodGroup }}</p>
+                <p><strong>🎓 University:</strong> {{ details?.university }}</p>
+                <p><strong>🏢 Company:</strong> {{ details?.company?.name }} - {{ details?.company?.title }}</p>
+                
+                <hr>
+    
+                <button class="btn btn-primary" routerLink="/details">Back</button>
+            </div>
+        </div>
+    </div>

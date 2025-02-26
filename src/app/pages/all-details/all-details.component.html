@@ -32,7 +32,9 @@
                             {{item.address.state}} <br>
                             {{item.address.postalCode}}
                         </p>
-                        <a href="#" class="btn btn-primary">More details</a>
+                         <!-- <button class="btn btn-primary" routerLink="user-details/{{item.id}}">More details</button> -->
+                         <button class="btn btn-primary" [routerLink]="['/user-details', item.id]">More details</button>
+
                     </div>
                 </div>
             </div>

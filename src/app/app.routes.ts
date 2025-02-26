@@ -4,6 +4,7 @@ import { AllDetailsComponent } from './pages/all-details/all-details.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { Component } from '@angular/core';
 import { ErrorComponent } from './pages/error/error.component';
+import { SingleUserDetailsComponent } from './pages/single-user-details/single-user-details.component';
 
 export const routes: Routes = [
     {
@@ -14,6 +15,9 @@ export const routes: Routes = [
     },
     {
         path: 'contact', component: ContactComponent
+    },
+    {
+        path:'user-details/:id',component:SingleUserDetailsComponent
     },
     { path: '**', component: ErrorComponent }
 ];
