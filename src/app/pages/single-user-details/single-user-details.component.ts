@@ -4,7 +4,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-single-user-details',
-  imports: [RouterLink],
+  imports: [],
   templateUrl: './single-user-details.component.html',
   styleUrl: './single-user-details.component.css'
 })
