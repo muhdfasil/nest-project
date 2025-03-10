@@ -17,7 +17,8 @@ img {
 
 .left {
     background: linear-gradient(45deg, #9c58aa, #435397);
-
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
 input {
