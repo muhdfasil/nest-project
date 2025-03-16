@@ -1,15 +1,17 @@
-.mainDiv{
+.mainDiv {
     background-color: rgb(99, 132, 161);
     border-radius: 20px;
 }
-.navbutton{
+
+.navbutton {
     border-color: white;
     color: white;
 }
-.logo{
+
+.logo {
     width: 80px;
 }
 
-.logoDiv{
+.logoDiv {
     margin-left: -50px;
 }

@@ -5,14 +5,17 @@ body {
     align-items: center;
     background-color: #f8f9fa;
 }
+
 .error-container {
     text-align: center;
 }
+
 .error-code {
     font-size: 120px;
     font-weight: bold;
     color: #dc3545;
 }
+
 .error-message {
     font-size: 24px;
     margin-bottom: 20px;

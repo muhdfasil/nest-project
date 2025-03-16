@@ -14,9 +14,6 @@ export class ApiService {
   getDetails(){
     return this.http.get('https://dummyjson.com/users')
   }
-  // getDetailsById(id:string){
-  //   return this.http.get('https://dummyjson.com/users'+id)
-  // }
   getDetailsById(id: string) {
     return this.http.get('https://dummyjson.com/users/' + id);
   }
